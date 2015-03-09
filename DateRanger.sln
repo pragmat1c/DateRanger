@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2013
+VisualStudioVersion = 12.0.31101.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{66B95A28-9CF5-4CCE-B5FB-DEA6E865EDC7}"
+	ProjectSection(SolutionItems) = preProject
+		DateTimeUtility.vsmdi = DateTimeUtility.vsmdi
+		Local.testsettings = Local.testsettings
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRanger", "DateRanger\DateRanger.csproj", "{1522C72D-866B-4740-8F91-B7070F910307}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangerTest", "DateRangerTest\DateRangerTest.csproj", "{ED63CDED-65A4-4203-BC00-3E22F8968F26}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{D438DFC2-4B7D-4CF7-967A-68C5C1BB45CF}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangerStrings", "DateRangerStrings\DateRangerStrings.csproj", "{4A9E890A-8A54-49C2-B6FB-5C735D88FED8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DateRangerStringsTest", "DateRangerStringsTest\DateRangerStringsTest.csproj", "{FEAD9113-ED1E-4274-AA64-ACCA0E46A1B4}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1522C72D-866B-4740-8F91-B7070F910307}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1522C72D-866B-4740-8F91-B7070F910307}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1522C72D-866B-4740-8F91-B7070F910307}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1522C72D-866B-4740-8F91-B7070F910307}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED63CDED-65A4-4203-BC00-3E22F8968F26}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED63CDED-65A4-4203-BC00-3E22F8968F26}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED63CDED-65A4-4203-BC00-3E22F8968F26}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED63CDED-65A4-4203-BC00-3E22F8968F26}.Release|Any CPU.Build.0 = Release|Any CPU
+		{4A9E890A-8A54-49C2-B6FB-5C735D88FED8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A9E890A-8A54-49C2-B6FB-5C735D88FED8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A9E890A-8A54-49C2-B6FB-5C735D88FED8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A9E890A-8A54-49C2-B6FB-5C735D88FED8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{FEAD9113-ED1E-4274-AA64-ACCA0E46A1B4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{FEAD9113-ED1E-4274-AA64-ACCA0E46A1B4}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{FEAD9113-ED1E-4274-AA64-ACCA0E46A1B4}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{FEAD9113-ED1E-4274-AA64-ACCA0E46A1B4}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = DateTimeUtility.vsmdi
+	EndGlobalSection
+EndGlobal
