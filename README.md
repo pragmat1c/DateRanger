@@ -99,4 +99,18 @@ dr.Intersects(dr0);
 // False
 dr0.Intersects(dr);
 // False
+
+// Get the DateRange where two DateRanges intersect
+var startDate = new DateTime(2014, 3, 1);
+var endDate = new DateTime(2015, 3, 1);
+var dr = new DateRange(startDate, endDate);
+
+var startDate0 = new DateTime(2013, 4, 1);
+var endDate0 = new DateTime(2014, 6, 1);
+var dr0 = new DateRange(startDate0, endDate0);
+
+dr.GetIntersection(dr0);
+// StartDate: 3/1/2014 12:00:00 AM 
+// EndDate: 6/1/2014 12:00:00 AM 
+
 ```
